@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a71e8b979ddcd5408b424efc976959c, type: 3}
+  m_Name: PlayerDetail
+  m_EditorClassIdentifier: 
+  runAcceleration: 16
+  runMaxSpeed: 9
+  walkAcceleration: 13
+  walkMaxSpeed: 7.5
+  airAcceleration: 20
+  deceleration: 25
+  rotateSpeed: 985
+  jumpForce: 12
+  slightJumpForce: 8.5
+  bounceJumpForce: 26
+  normalGravity: 3
+  waterFloatForce: 4
+  windFloatForce: 12
+  waterBufferForce: 0.25
+  swimRotateSpeed: 360
+  swimAcceleration: 4
+  swimDeceleration: 3
+  swimeMaxSpeed: 4
+  invincibleTime: 2
+  spinDuration: 0.45
+  stompDuration: 0.5
+  stompMinSpeed: 7.5
+  stompMaxSpeed: 15
+  airStompRotateDuration: 0.65
+  stompGroundDuration: 0.25
+  airStompDownSpeed: 25
+  backFlipInvertalTime: 1
+  backFlipForce: {x: 5, y: 18}
+  huangClimbDuration: 0.8
+  hurtTime: 0.8
+  railGridOffset: 0.3
+  railGridScaleMultiple: 18
+  railGridExitInertiaSpeed: 5
+  modeInclineMaxAngle: 10
+  modeInclineSmoothness: 12
+  crawAcceleration: 8
+  crawDeceleration: 10
+  crawMaxSpeed: 3.5
+  crawRotateSpeed: 250
+  gliderAcceleration: 13
+  gliderMaxSpeed: 7.5
+  gliderRotateSpeed: 600
+  gliderFallSpeed: 2
+  dashSpeed: 25
+  dashDuration: 0.3
+  dashCD: 0.5
+  climbPoleUpSpeed: 12
+  climbPoleDownSpeed: 20
+  climbPoleRotateSpeed: 6
+  wallSliderSpeed: 3
+  wallJumpForce: {x: 5, y: 12}
+  airDiveRotateSpeed: 30
+  airDiveInvertalTime: 0.5
+  airDiveForce: {x: 16, y: 5}
+  capsuleColliderNormalHeight: 2
+  capsuleColliderNormalCenter: {x: 0, y: 1, z: 0}
+  capsuleColliderSquatHeight: 1
+  capsuleColliderSquatCenter: {x: 0, y: 0.5, z: 0}
+  hurtForce: {x: 2, y: 10}
